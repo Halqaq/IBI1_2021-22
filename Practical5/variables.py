@@ -8,7 +8,7 @@ if d>e:
 if d<e:
 	print ("The rate of new cases is greater in 2021")
 
-X=1>2
-Y=1<2
+X=True
+Y=False
 W=X and Y
-print("W is",W)
+print(W)

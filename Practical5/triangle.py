@@ -5,8 +5,9 @@
 
 
 
-
+#a is the number of points in a triangle
 a=0
+#i indicates  the i th triangle
 for i in range(1,11):
 	a+=i
-	print("triangle",i,"is",a)
+	print("triangle",i,"has",a,"points")
