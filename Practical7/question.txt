@@ -1,0 +1,4 @@
+Question: In which time interval did covid cases increase the most rapidly in China?
+Solution: The plot for new cases at line 28 to 31.
+Discussion: According the plot, the new cases is more than 2000 from 2020-1-30 to 2020-2-15,
+so the situation was the most severe in China during this period of time.
