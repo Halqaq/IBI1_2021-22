@@ -1,0 +1,5 @@
+BLOSUM score for human-mouse, human-random, mouse random comparisons: 1490, -351, -348
+The percentage of identical amino acids for three comparisons: 96.53979238754326%, 2.7681660899653977%, 3.114186851211073%
+According to the result, the human and mouse amino acids are much more likely than the random sequence. We can see that the more identical the amino acids are, the higher the alignment score will be.
+The amino acids that build the protein are not randomly chosen. Each of them contrirbutes to the overall structure, like hydrophobic interaction and hydrogen-bond interaction.
+The mutation pace of protein is steady. So the alignment scores of some proteins that two species both have represent the evolutionary distance of them. The higher the score is, the less relative the two species are.
