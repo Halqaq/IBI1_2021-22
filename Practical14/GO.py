@@ -40,7 +40,7 @@ while turn < 50:
     for id2 in dict_all:
         set2 = (set(dict4[id2]))
         dict4[id2] = set2
-    if dict3 == dict4:
+    if dict3 == dict4:  # When dict_all doesn't change, all childNodes are found. The while-loop then breaks.
         break
     turn += 1
 
