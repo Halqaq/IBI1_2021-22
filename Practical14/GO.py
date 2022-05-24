@@ -2,6 +2,7 @@ from xml.dom.minidom import parse
 import xml.dom.minidom
 import matplotlib.pyplot as plt
 from copy import deepcopy
+import numpy as np
 # Read the file first.
 DOMTree = xml.dom.minidom.parse('go_obo.xml')
 collection = DOMTree.documentElement
@@ -94,6 +95,8 @@ plt.boxplot(list_translation_count, showmeans=True, showfliers=True)
 plt.xlabel('Distribution of childNodes of the translation-related terms')
 plt.ylabel('ChildNodes')
 plt.show()
+print('The mean of childNodes of all terms is', np.mean(list_all))
+print('The mean of childNodes of translation-related terms is', np.mean(list_translation_count))
 
 # According to the boxplot, the means are similar. However, the translation-related terms tend to have less childNodes.
 # There are translation-related terms that have hundreds of childNodes.
